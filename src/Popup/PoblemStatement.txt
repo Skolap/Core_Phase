@@ -1,0 +1,12 @@
+Create 3 columns in a row in which each column has simple text like shown in the image at 
+https://media.geeksforgeeks.org/wp-content/uploads/20200318183629/Screenshot-from-2020-03-18-18-36-13.png
+
+Add an event handler to the columns such that when you click on any column it should alert the user with the text inside the column, using the ‘alert’ function.
+
+
+Add 300*300 pixels width and height, any background color, and necessary padding/margin for the gap between columns using external CSS.
+Make the document responsive such that when:
+the screen width is less than 720px, only 1 column in a row is displayed,
+the screen width is greater than 720px and less than 1000px, only 2 columns in a row are displayed,
+the screen width is greater than 1000px, 3 columns in a row are displayed.
+Add any animation of your choice using CSS.

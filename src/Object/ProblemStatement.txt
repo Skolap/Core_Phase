@@ -1,0 +1,9 @@
+Construct an object which contains a school’s details like cohort name, learners, and address, using a constructor function or a class.
+Example of object:
+{
+   name: "name of the school",
+   learners: ["Learner 1", "Learner 2", "Learner 3"],
+   address: "Mumbai"
+ }
+
+Create a method inside the constructor function or class which prints the name of the school.

@@ -1,0 +1,23 @@
+Consider the code below:
+
+setTimeout(() => {
+  console.log("Time 1")
+}, 3000)
+
+setTimeout(() => {
+  console.log("Time 2")
+}, 2000)
+
+setTimeout(() => {
+  console.log("Time 3")
+}, 1000)
+
+The output of the above code is
+Time 3
+Time 2
+Time 1
+
+Without updating the timings change the code using asynchronous methodologies such that it prints the following output.
+Time 1 
+Time 2
+Time 3
